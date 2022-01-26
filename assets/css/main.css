@@ -30,11 +30,3 @@ html {
 .mb-md {
     margin-bottom: 1rem;
 }
-
-details > summary {
-    list-style: none;
-}
-
-details > summary::-webkit-details-marker {
-    display: none;
-}
