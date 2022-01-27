@@ -1,1 +1,51 @@
 /* Стилизация кнопки */
+.c-button:not([disabled]) {
+    cursor: pointer;
+}
+
+.c-button {
+    background: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 4rem;
+    text-align: center;
+    border: 0;
+    box-shadow: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2; /* по идеи можно и normal */
+    height: 3rem;
+    transition: all 0.3s linear;
+}
+
+.c-button--primary {
+    background: var(--primary);
+    color: var(--white, #fff);
+}
+
+.c-button--secondary {
+    background: var(--secondary);
+    color: var(--white, #fff);
+}
+
+.c-button--alternate {
+    border: 1px solid var(--grey-3);
+    color: var(--grey-4);
+}
+
+.c-button--primary:hover {
+    background: var(--blue-dark);
+}
+
+.c-button--secondary:hover {
+   background: var(--purple-dark);
+}
+
+.c-button--alternate:hover {
+    border-color: var(--black);
+}
+
+.c-button[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+}
