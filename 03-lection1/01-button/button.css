@@ -15,7 +15,7 @@
     font-weight: 500;
     line-height: 1.2; /* по идеи можно и normal */
     height: 3rem;
-    transition: all 0.4s linear;
+    transition: all 0.3s linear;
 }
 
 .c-button--primary {
