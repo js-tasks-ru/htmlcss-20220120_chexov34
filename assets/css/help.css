@@ -1,0 +1,20 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    padding-top: 1rem;
+}
+
+.mb-md {
+    margin-bottom: 1rem;
+}
+
+.l-container {
+    padding: 0 1rem 0 1rem;
+    margin: 0 auto;
+}
+
+.l-container--main {
+    width: 90rem;
+}
