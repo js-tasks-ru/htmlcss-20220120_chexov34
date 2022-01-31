@@ -10,6 +10,10 @@ body {
     margin-bottom: 1rem;
 }
 
+.mb-sm {
+    margin-bottom: 0.5rem;
+}
+
 .l-container {
     padding: 0 1rem 0 1rem;
     margin: 0 auto;
@@ -18,3 +22,16 @@ body {
 .l-container--main {
     width: 90rem;
 }
+
+.l-flex-block {
+    display: flex;
+}
+
+.ml-md {
+    margin-left: 1rem;
+}
+
+.l-flex-grow {
+    flex-grow: 1;
+  }
+  
