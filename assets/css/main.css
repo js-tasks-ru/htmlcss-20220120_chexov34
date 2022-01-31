@@ -22,6 +22,7 @@
     --grey-5: #E2E6E8;
     --grey-6: #F3F5F5;
     --grey-7: #E3E7EA;
+    --grey-8: #F9FAFC;
 
     --error: var(--red);
     --success: var(--blue);
@@ -35,6 +36,6 @@
 }
 
 main {
-    background: var(--grey-5);
+    background: var(--grey-8);
     min-height: 25rem;
 }
