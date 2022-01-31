@@ -1,0 +1,22 @@
+.l-footer {
+  background: var(--white);
+  text-align: center;
+}
+
+.l-footer__title {
+  color: var(--black);
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 3rem;
+}
+
+.l-footer__text {
+  color: var(--black);
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
