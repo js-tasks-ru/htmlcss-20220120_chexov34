@@ -1,0 +1,29 @@
+.c-skeleton {
+  background: var(--white);
+  border: 1px solid var(--grey-3);
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  width: 100%;
+  padding: 2rem 1.5rem;
+  font-size: 0;
+}
+
+.c-skeleton__circle {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  background: var(--grey-2);
+}
+
+.c-skeleton__line {
+  background: linear-gradient(92.51deg, var(--grey-3) 6.44%, var(--grey-5) 38.47%, var(--grey-6) 56.48%, var(--grey-7) 77.5%, var(--grey-2) 102.52%);
+  height: 20px;
+}
+
+.c-skeleton__line--short {
+  width: 50%;
+}
+
+.c-skeleton__line--middle {
+  width: 75%;
+}
