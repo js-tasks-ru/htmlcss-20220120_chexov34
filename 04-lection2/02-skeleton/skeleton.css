@@ -20,10 +20,6 @@
   height: 20px;
 }
 
-.l-flex-grow {
-  flex-grow: 1;
-}
-
 .c-skeleton__line--short {
   width: 50%;
 }
