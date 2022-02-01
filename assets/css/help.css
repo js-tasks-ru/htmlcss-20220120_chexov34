@@ -30,3 +30,7 @@ html {
 .l-flex-grow {
     flex-grow: 1;
 }
+
+.l-justify-space-between {
+    justify-content: space-between;
+}
