@@ -4,6 +4,8 @@
 @import "../../components/container/container.css";
 @import "../../components/header/header.css";
 @import "../../components/footer/footer.css";
+@import "../../components/card/card.css";
+@import "../../components/preview/preview.css";
 @import "../../04-lection2/02-skeleton/skeleton.css";
 @import "../../04-lection2/01-histogram/histogram.css";
 
