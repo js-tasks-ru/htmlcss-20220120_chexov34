@@ -4,10 +4,10 @@
   border-radius: 0.75rem;
   padding: 2rem 1.56rem;
   min-height: 350px;
-  flex: 1 0 23.3333%;
   text-decoration: none;
   display: flex;
   flex-direction: column;
+  flex-basis: 330px;
 }
 
 .c-card__title {
