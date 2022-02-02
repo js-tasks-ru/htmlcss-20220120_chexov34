@@ -7,16 +7,7 @@ html {
 }
 
 .mb-sm {
-    margin-bottom: 0.5rem;
-}
-
-.l-container {
-    padding: 0 1rem 0 1rem;
-    margin: 0 auto;
-}
-
-.l-container--main {
-    width: 90rem;
+    margin-bottom: .5rem;
 }
 
 .l-flex-block {
@@ -33,4 +24,8 @@ html {
 
 .l-justify-space-between {
     justify-content: space-between;
+}
+
+.background-grey-1 {
+    background: var(--grey-1);
 }

@@ -1,0 +1,28 @@
+.c-sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.c-sidebar a {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: .875rem;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.c-sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.c-sidebar-menu a {
+  line-height: 1.375rem;
+  margin-bottom: 0.25rem;
+}
+
+.c-sidebar-menu a.active {
+  color: var(--orange);
+}

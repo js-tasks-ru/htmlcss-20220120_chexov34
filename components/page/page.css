@@ -1,0 +1,22 @@
+.l-page {
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.l-page-main {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 3.5rem;
+  justify-self: center;
+}
+
+.l-page-inner {
+  background: var(--white);
+  padding: 2rem 3rem;
+  min-height: 44.625rem;
+}
+
+.l-page-inner__title {
+  margin-bottom: 1.625rem;
+}
