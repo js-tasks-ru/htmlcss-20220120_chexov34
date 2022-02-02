@@ -26,6 +26,6 @@ html {
     justify-content: space-between;
 }
 
-.background-grey-1 {
+.background-grey {
     background: var(--grey-1);
 }
