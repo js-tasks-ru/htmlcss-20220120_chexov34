@@ -1,0 +1,26 @@
+.c-card {
+  background: var(--white);
+  box-shadow: 0rem 0.125rem 0.25rem rgba(33, 36, 41, 0.05);
+  border-radius: 0.75rem;
+  padding: 2rem 1.56rem;
+  min-height: 350px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 350px;
+  box-sizing: border-box;
+}
+
+.c-card__title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3125rem;
+  line-height: 1.56rem;
+  text-align: center;
+  color: var(--black);
+}
+
+.c-card__body {
+  flex-grow: 1;
+}
