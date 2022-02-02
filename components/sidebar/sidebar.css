@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 
-.c-sidebar a {
+.c-sidebar__link {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -23,6 +23,6 @@
   margin-bottom: 0.25rem;
 }
 
-.c-sidebar__menu .c-sidebar__link.active {
+.c-sidebar__link--active {
   color: var(--orange);
 }
