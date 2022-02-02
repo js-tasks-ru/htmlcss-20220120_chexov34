@@ -7,7 +7,8 @@
   text-decoration: none;
   display: flex;
   flex-direction: column;
-  flex-basis: 330px;
+  flex-basis: 350px;
+  box-sizing: border-box;
 }
 
 .c-card__title {
