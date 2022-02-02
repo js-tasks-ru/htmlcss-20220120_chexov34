@@ -6,6 +6,8 @@
 @import "../../components/footer/footer.css";
 @import "../../components/sidebar/sidebar.css";
 @import "../../components/page/page.css";
+@import "../../components/card/card.css";
+@import "../../components/preview/preview.css";
 @import "../../04-lection2/02-skeleton/skeleton.css";
 @import "../../04-lection2/01-histogram/histogram.css";
 
