@@ -1,15 +1,11 @@
 .l-footer {
   background: var(--white);
   text-align: center;
+  padding: 4.4375rem 0 7.5rem 0;
 }
 
 .l-footer__title {
   color: var(--black);
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 2.4rem;
-  line-height: 3rem;
 }
 
 .l-footer__text {
@@ -21,4 +17,20 @@
   line-height: 1.5rem;
   max-width: 40rem;
   display: inline-block;
+}
+
+.l-footer--page {
+  background: var(--grey-8);
+  padding-bottom: 2.25rem;
+}
+
+.l-footer__page .l-footer__title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--grey-3);
 }

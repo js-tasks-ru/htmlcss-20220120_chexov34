@@ -1,6 +1,5 @@
 .l-header {
-  padding: 6rem 0 5rem;
-  background: var(--white);
+  padding: 6rem 0 4.8125rem;
 }
 
 .l-header__title {
@@ -10,4 +9,8 @@
   font-size: 50px;
   line-height: 4rem;
   color: var(--black);
+}
+
+.l-header--page {
+  padding: 2.5625rem 0;
 }
