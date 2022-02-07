@@ -1,0 +1,54 @@
+.c-modal {
+  position: fixed;
+  display: none;
+  background: rgb(196, 196, 196, .5);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.c-modal:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.c-modal__form {
+  max-width: 26.75rem;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--white);
+  padding: 1.875rem 2.5rem;
+  border-radius: 8px;
+}
+
+
+.c-modal__title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: var(--blue-deep-dark);
+  margin-bottom: .875rem;
+}
+
+.c-modal__body {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--grey-4);
+}
+
+.c-modal__icon_close {
+  position: absolute;
+  left: 95%;
+  top: 5%;
+  cursor: pointer;
+}
