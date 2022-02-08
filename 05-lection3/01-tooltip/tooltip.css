@@ -23,7 +23,6 @@
   text-align: center;
   color: var(--grey-2);
   position: absolute;
-  bottom: 100%;
   white-space: nowrap;
   left: 50%;
   transform: translateX(-50%);
@@ -34,13 +33,13 @@
 .c-tooltip__text::after {
   content: "";
   position: absolute;
-  top:100%;
+  top: 100%;
   left: 50%;
   border: 1rem solid transparent;
   border-top: .5rem solid var(--blue);
   transform: translateX(-50%);
 }
 
-.c-tooltip:hover > .c-tooltip__text {
+.c-tooltip:hover>.c-tooltip__text {
   display: block;
 }
