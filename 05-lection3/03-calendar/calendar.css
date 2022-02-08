@@ -48,7 +48,7 @@
   cursor: pointer;
 }
 
-.c-calendar--item_day {
+.c-calendar__item--day {
   color: #90A0B7;
   font-size: 0.875rem;
 }
