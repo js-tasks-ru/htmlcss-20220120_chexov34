@@ -22,3 +22,20 @@
 .l-page__title {
   margin-bottom: 1.625rem;
 }
+
+@media (max-width: 400px) {
+  .l-page__main {
+    grid-template-columns: auto;
+  }
+  .l-page__title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    margin-bottom: 1.25rem;
+  }
+  .l-page__inner {
+    padding: 1rem 2rem;
+  }
+}

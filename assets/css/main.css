@@ -43,9 +43,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-main {
-    background: var(--grey-8);
-}
 
 h1 {
     font-family: 'Inter', sans-serif;

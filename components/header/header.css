@@ -34,4 +34,8 @@
     font-style: normal;
     font-weight: normal;
   }
+  .l-header--page {
+    background: var(--grey-8);
+    padding: 2rem 8.3125rem;
+  }
 }
