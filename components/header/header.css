@@ -6,11 +6,32 @@
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 50px;
+  font-size: 3.125rem;
   line-height: 4rem;
   color: var(--black);
 }
 
 .l-header--page {
   padding: 2.5625rem 0;
+}
+
+.l-header--logo {
+  width: 6.875rem;
+  position: absolute;
+  left: 50%;
+  top: 17px;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 400px) {
+  .l-header {
+    padding: 6rem 4.4375rem 4.8125rem 1rem;
+  }
+
+  .l-header__title {
+    font-size: 1.76rem;
+    line-height: 2.375rem;
+    font-style: normal;
+    font-weight: normal;
+  }
 }
