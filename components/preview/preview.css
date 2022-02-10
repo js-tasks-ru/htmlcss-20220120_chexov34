@@ -3,3 +3,10 @@
   gap: 30px;
   flex-wrap: wrap;
 }
+
+@media (max-width: 400px) {
+  .l-preview {
+    padding: 1.375rem 0.9375rem 12.875rem 1rem;
+    gap: 1rem;
+  }
+}

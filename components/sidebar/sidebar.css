@@ -26,3 +26,9 @@
 .c-sidebar__link--active {
   color: var(--orange);
 }
+
+@media (max-width: 400px) {
+  .c-sidebar {
+    display: none;
+  }
+}

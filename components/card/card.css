@@ -24,3 +24,18 @@
 .c-card__body {
   flex-grow: 1;
 }
+
+@media (max-width: 400px) {
+  .c-card {
+    min-height: 210px;
+    flex-basis: 164px;
+  }
+
+  .c-card__title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}

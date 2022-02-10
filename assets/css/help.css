@@ -29,3 +29,10 @@ html {
 .background-base {
     background: var(--grey-1);
 }
+
+@media (max-width: 400px) {
+    .background-base {
+        background: var(--white);
+    }
+    
+}
