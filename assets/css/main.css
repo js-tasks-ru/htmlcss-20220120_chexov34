@@ -9,6 +9,7 @@
 @import "../../components/card/card.css";
 @import "../../components/preview/preview.css";
 @import "../../components/icon/icon.css";
+@import "../../components/avatar/avatar.css";
 @import "../../03-lection1/02-accordion/accordion.css";
 @import "../../04-lection2/02-skeleton/skeleton.css";
 @import "../../04-lection2/01-histogram/histogram.css";
@@ -44,9 +45,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-main {
-    background: var(--grey-8);
-}
 
 h1 {
     font-family: 'Inter', sans-serif;
