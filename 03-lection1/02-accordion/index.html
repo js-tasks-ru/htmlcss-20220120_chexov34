@@ -1,39 +1,91 @@
 <!DOCTYPE html>
-<!-- Страница с аккордеоном -->
+<!-- Детальная компонента -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/fonts/fonts.css">
-        <link rel="stylesheet" href="../../assets/css/normalize.css">
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="../../assets/css/help.css">
-        <link rel="stylesheet" href="./accordion.css">
-    </head>
-    <body>
-        <div class="c-accordion">
-            <details class="c-accordion__item mb-md" open>
-                <summary class="c-accordion__summary">
-                    Accordion item 1
-                </summary>
-                <div class="c-accordion__body">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+
+<head>
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body class="background-base">
+    <div class="l-page">
+        <header class="l-header l-header--page">
+            <div class="l-container">
+            </div>
+        </header>
+
+        <main class="l-page__main l-container">
+            <aside class="c-sidebar">
+                <h4 class="mb-md">Components</h4>
+                <nav class="c-sidebar__menu">
+                    <a class="c-sidebar__link" href="#">Modal</a>
+                    <a class="c-sidebar__link" href="#">Tooltip</a>
+                    <a class="c-sidebar__link" href="#">Avatar</a>
+                    <a class="c-sidebar__link" href="#">Calendar</a>
+                    <a class="c-sidebar__link c-sidebar__link--active" href="#">Histogram</a>
+                    <a class="c-sidebar__link" href="#">Custom form elements</a>
+                </nav>
+                <a class="c-sidebar__link" href="#">Main page</a>
+            </aside>
+            <div class="l-page__inner">
+                <div class="l-contaner">
+                    <h3 class="l-page__title">Accordion</h3>
+                    <div class="c-accordion">
+                        <details class="c-accordion__item mb-md" open>
+                            <summary class="c-accordion__summary">
+                                Accordion item 1
+                                <svg class="c-icon c-accordion--icon" viewBox="0 0 24 24">
+                                    <use href="/assets/svg/icons.svg#arrowDown"></use>
+                                </svg>
+                            </summary>
+                            <div class="c-accordion__body">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet
+                                minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet
+                                minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </div>
+                        </details>
+                        <details class="c-accordion__item">
+                            <summary class="c-accordion__summary">
+                                Accordion item 2
+                                <svg class="c-icon c-accordion--icon" viewBox="0 0 24 24">
+                                    <use href="/assets/svg/icons.svg#arrowDown"></use>
+                                </svg>
+                            </summary>
+                            <div class="c-accordion__body">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                                    amet.<p>
+                            </div>
+                        </details>
+                    </div>
                 </div>
-            </details>
-            <details class="c-accordion__item">
-                <summary class="c-accordion__summary">
-                    Accordion item 2
-                </summary>
-                <div class="c-accordion__body">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<p>
-                </div>
-            </details>
-        </div>
-    </body>
+            </div>
+        </main>
+
+        <footer class="l-footer l-footer--page">
+            <div class="l-container">
+                <h5 class="l-footer--title">Reusable component library</h5>
+            </div>
+        </footer>
+    </div>
+</body>
+
 </html>
