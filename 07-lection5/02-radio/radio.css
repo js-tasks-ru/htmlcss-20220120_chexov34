@@ -1,10 +1,9 @@
 .c-radio-button {
-  display: block;
+  display: inline-block;
   position: relative;
 }
 
 .c-radio-button__input {
-  visibility: hidden;
   position: absolute;
   height: 0;
   width: 0;
