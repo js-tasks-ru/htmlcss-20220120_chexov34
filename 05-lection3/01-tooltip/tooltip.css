@@ -43,3 +43,8 @@
 .c-tooltip:hover>.c-tooltip__text {
   display: block;
 }
+
+.c-tooltip--icon {
+  height: 1.375rem;
+  width: 1.375rem;
+}
