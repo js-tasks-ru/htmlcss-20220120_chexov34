@@ -1,0 +1,71 @@
+.c-radio-button {
+  display: block;
+  position: relative;
+}
+
+.c-radio-button__input {
+  visibility: hidden;
+  position: absolute;
+  height: 0;
+  width: 0;
+  outline: none;
+}
+
+.c-radio-button__state {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+}
+
+.c-radio-button__control {
+  background: var(--white);
+  border: 1px solid var(--grey-2);
+  border-radius: 50%;
+  height: 1.75rem;
+  width: 1.75rem;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.c-radio-button__icon {
+  background: var(--white);
+  border-radius: 50%;
+  height: 1.125rem;
+  width: 1.125rem;
+}
+
+.c-radio-button__label {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--grey-4);
+}
+
+.c-radio-button__input:checked~.c-radio-button__state .c-radio-button__control .c-radio-button__icon {
+  background: var(--blue);
+}
+
+.c-radio-button__input:checked~.c-radio-button__state .c-radio-button__control {
+  border: 2px solid var(--blue);
+}
+
+.c-radio-button__input:focus~.c-radio-button__state .c-radio-button__label {
+  text-decoration: underline;
+}
+
+.c-radio-button__input:disabled~.c-radio-button__state .c-radio-button__control {
+  background: var(--grey-2);
+}
+
+.c-radio-button__input:disabled~.c-radio-button__state .c-radio-button__control .c-radio-button__icon {
+  background: var(--grey-2);
+}
+
+.c-radio-button__input:disabled~.c-radio-button__state .c-radio-button__label {
+  text-decoration: none;
+  color: var(--grey-2);
+}
