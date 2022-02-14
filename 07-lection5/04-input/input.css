@@ -10,7 +10,7 @@
   margin-bottom: 5px;
 }
 
-.c-form-block__input>input {
+.c-form-block__input {
   background: var(--white);
   border: 1px solid var(--grey-2);
   box-sizing: border-box;
@@ -26,16 +26,11 @@
   color: var(--grey-4);
 }
 
-.c-form-block__input>input::placeholder {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.25rem;
-  line-height: 1.62500rem;
+.c-form-block__input::placeholder {
   color: var(--grey-2);
 }
 
-.c-form-block__input>input:focus {
+.c-form-block__input:focus {
   border: 1px solid var(--blue);
   box-shadow: 0px 1px 1px rgba(51, 154, 240, 0.1);
 }
@@ -45,7 +40,7 @@
   height: 1.5rem;
 }
 
-.c-form-block__input {
+.c-form-block__input-wrapper {
   position: relative;
 }
 
@@ -65,17 +60,17 @@
   transform: translate(0, -50%);
 }
 
-.c-form-block--error .c-form-block__input>input {
+.c-form-block--error .c-form-block__input {
   border-color: var(--red);
   box-shadow: 0px 1px 1px rgba(240, 61, 62, 0.1);
 }
 
-.c-form-block--error .c-form-block__input>input:focus {
+.c-form-block--error .c-form-block__input:focus {
   border-color: var(--red);
   box-shadow: 0px 2px 2px rgba(240, 61, 62, 0.1);
 }
 
-.c-form-block__input>input:disabled {
+.c-form-block__input.c-form-block__label {
   color: var(--grey-2);
   pointer-events: none;
 }
