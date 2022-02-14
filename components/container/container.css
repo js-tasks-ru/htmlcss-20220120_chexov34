@@ -6,8 +6,9 @@
 }
 
 .l-container--main {
-  height: 40rem;
+  height: 55rem;
   max-width: 75rem;
+  background: var(--grey-8)
 }
 
 @media (max-width: 400px) {

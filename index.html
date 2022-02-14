@@ -22,79 +22,130 @@
         </div>
     </header>
 
-    <main>
-        <div class="l-container l-container--main l-preview l-flex-block">
-            <a href="#" class="c-card">
-                <div class="c-card__body">
+    <main class="background-base">
+        <div class="l-container--main l-main l-container">
+            <div class="c-tabs">
+                <input class="c-tabs__radio-button" type="radio" name="tabs" id="all-tab" checked>
+                <input class="c-tabs__radio-button" type="radio" name="tabs" id="complex-tab">
+                <input class="c-tabs__radio-button" type="radio" name="tabs" id="simple-tab">
+
+                <div class="c-tabs__scroller">
+                    <label class="c-tabs__label" for="all-tab">All components</label>
+                    <label class="c-tabs__label" for="complex-tab">Complex</label>
+                    <label class="c-tabs__label" for="simple-tab">Simple</label>
                 </div>
-                <h4 class="c-card__title">Tooltip</h4>
-            </a>
-            <a href="#" class="c-card">
-                <div class="c-card__body">
-                </div>
-                <h4 class="c-card__title">Custom form elements</h4>
-            </a>
-            <a href="#" class="c-card">
-                <div class="c-card__body">
-                </div>
-                <h4 class="c-card__title">Calendar</h4>
-            </a>
-            <a href="#" class="c-card">
-                <div class="c-card__body">
-                </div>
-                <h4 class="c-card__title">Modal dialog</h4>
-            </a>
-            <a href="#" class="c-card">
-                <div class="c-card__body">
-                    <div class="c-histogram">
-                        <div class="l-flex-block l-justify-space-between">
-                            <h3 class="c-histogram__title">Total orders</h3>
+                <div class="c-tabs__content c-tabs__content_all l-flex-block l-preview">
+                    <a href="#" class="c-card">
+                        <div class="c-card__body">
                         </div>
-                        <span class="c-histogram__total">50254</span>
-                        <div class="c-histogram__bars">
-                            <div class="c-histogram__bar" style="height: 100%"></div>
-                            <div class="c-histogram__bar" style="height: 10%"></div>
-                            <div class="c-histogram__bar" style="height: 54%"></div>
-                            <div class="c-histogram__bar" style="height: 99%"></div>
-                            <div class="c-histogram__bar" style="height: 87%"></div>
-                            <div class="c-histogram__bar" style="height: 88%"></div>
-                            <div class="c-histogram__bar" style="height: 10%"></div>
-                            <div class="c-histogram__bar" style="height: 25%"></div>
-                            <div class="c-histogram__bar" style="height: 21%"></div>
-                            <div class="c-histogram__bar" style="height: 10%"></div>
-                            <div class="c-histogram__bar" style="height: 20%"></div>
-                            <div class="c-histogram__bar" style="height: 50%"></div>
-                            <div class="c-histogram__bar" style="height: 6%"></div>
-                            <div class="c-histogram__bar" style="height: 3%"></div>
-                            <div class="c-histogram__bar" style="height: 10%"></div>
-                            <div class="c-histogram__bar" style="height: 12%"></div>
-                            <div class="c-histogram__bar" style="height: 67%"></div>
-                            <div class="c-histogram__bar" style="height: 10%"></div>
-                            <div class="c-histogram__bar" style="height: 64%"></div>
-                            <div class="c-histogram__bar" style="height: 91%"></div>
-                            <div class="c-histogram__bar" style="height: 10%"></div>
-                            <div class="c-histogram__bar" style="height: 24%"></div>
-                            <div class="c-histogram__bar" style="height: 58%"></div>
-                            <div class="c-histogram__bar" style="height: 64%"></div>
-                            <div class="c-histogram__bar" style="height: 23%"></div>
-                            <div class="c-histogram__bar" style="height: 74%"></div>
-                            <div class="c-histogram__bar" style="height: 58%"></div>
-                            <div class="c-histogram__bar" style="height: 13%"></div>
-                            <div class="c-histogram__bar" style="height: 66%"></div>
-                            <div class="c-histogram__bar" style="height: 100%"></div>
+                        <h4 class="c-card__title">Tooltip</h4>
+                    </a>
+                    <a href="#" class="c-card">
+                        <div class="c-card__body">
                         </div>
-                    </div>
+                        <h4 class="c-card__title">Custom form elements</h4>
+                    </a>
+                    <a href="#" class="c-card">
+                        <div class="c-card__body">
+                        </div>
+                        <h4 class="c-card__title">Calendar</h4>
+                    </a>
+                    <a href="#" class="c-card">
+                        <div class="c-card__body">
+                        </div>
+                        <h4 class="c-card__title">Modal dialog</h4>
+                    </a>
+                    <a href="#" class="c-card">
+                        <div class="c-card__body">
+
+                        </div>
+                        <h4 class="c-card__title">Histogram</h4>
+                    </a>
+                    <a href="#" class="c-card">
+                        <div class="c-card__body">
+                            <div class="c-avatar">
+                                <img class="c-avatar__image" src="assets/images/avatar-200.jpg" alt="avatar" />
+                            </div>
+                        </div>
+                        <h4 class="c-card__title">Avatar</h4>
+                    </a>
                 </div>
-                <h4 class="c-card__title">Histogram</h4>
-            </a>
-            <a href="#" class="c-card">
-                <div class="c-card__body">
-                    <div class="c-avatar">
-                        <img class="c-avatar__image" src="assets/images/avatar-200.jpg" alt="avatar" />
-                    </div>
+                <div class="c-tabs__content c-tabs__content_complex l-flex-block l-preview">
+                    <a href="#" class="c-card">
+                        <div class="c-card__body">
+                        </div>
+                        <h4 class="c-card__title">Tooltip</h4>
+                    </a>
+                    <a href="#" class="c-card">
+                        <div class="c-card__body">
+                        </div>
+                        <h4 class="c-card__title">Custom form elements</h4>
+                    </a>
+                    <a href="#" class="c-card">
+                        <div class="c-card__body">
+                        </div>
+                        <h4 class="c-card__title">Calendar</h4>
+                    </a>
                 </div>
-                <h4 class="c-card__title">Avatar</h4>
-            </a>
+                <div class="c-tabs__content c-tabs__content_simple l-flex-block l-preview">
+                    <a href="#" class="c-card">
+                        <div class="c-card__body">
+                        </div>
+                        <h4 class="c-card__title">Modal dialog</h4>
+                    </a>
+                    <a href="#" class="c-card">
+                        <div class="c-card__body">
+                            <div class="c-histogram">
+                                <div class="l-flex-block l-justify-space-between">
+                                    <h3 class="c-histogram__title">Total orders</h3>
+                                </div>
+                                <span class="c-histogram__total">50254</span>
+                                <div class="c-histogram__bars">
+                                    <div class="c-histogram__bar" style="height: 100%"></div>
+                                    <div class="c-histogram__bar" style="height: 10%"></div>
+                                    <div class="c-histogram__bar" style="height: 54%"></div>
+                                    <div class="c-histogram__bar" style="height: 99%"></div>
+                                    <div class="c-histogram__bar" style="height: 87%"></div>
+                                    <div class="c-histogram__bar" style="height: 88%"></div>
+                                    <div class="c-histogram__bar" style="height: 10%"></div>
+                                    <div class="c-histogram__bar" style="height: 25%"></div>
+                                    <div class="c-histogram__bar" style="height: 21%"></div>
+                                    <div class="c-histogram__bar" style="height: 10%"></div>
+                                    <div class="c-histogram__bar" style="height: 20%"></div>
+                                    <div class="c-histogram__bar" style="height: 50%"></div>
+                                    <div class="c-histogram__bar" style="height: 6%"></div>
+                                    <div class="c-histogram__bar" style="height: 3%"></div>
+                                    <div class="c-histogram__bar" style="height: 10%"></div>
+                                    <div class="c-histogram__bar" style="height: 12%"></div>
+                                    <div class="c-histogram__bar" style="height: 67%"></div>
+                                    <div class="c-histogram__bar" style="height: 10%"></div>
+                                    <div class="c-histogram__bar" style="height: 64%"></div>
+                                    <div class="c-histogram__bar" style="height: 91%"></div>
+                                    <div class="c-histogram__bar" style="height: 10%"></div>
+                                    <div class="c-histogram__bar" style="height: 24%"></div>
+                                    <div class="c-histogram__bar" style="height: 58%"></div>
+                                    <div class="c-histogram__bar" style="height: 64%"></div>
+                                    <div class="c-histogram__bar" style="height: 23%"></div>
+                                    <div class="c-histogram__bar" style="height: 74%"></div>
+                                    <div class="c-histogram__bar" style="height: 58%"></div>
+                                    <div class="c-histogram__bar" style="height: 13%"></div>
+                                    <div class="c-histogram__bar" style="height: 66%"></div>
+                                    <div class="c-histogram__bar" style="height: 100%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="c-card__title">Histogram</h4>
+                    </a>
+                    <a href="#" class="c-card">
+                        <div class="c-card__body">
+                            <div class="c-avatar">
+                                <img class="c-avatar__image" src="assets/images/avatar-200.jpg" alt="avatar" />
+                            </div>
+                        </div>
+                        <h4 class="c-card__title">Avatar</h4>
+                    </a>
+                </div>
+            </div>
         </div>
     </main>
 

@@ -1,0 +1,69 @@
+.c-tabs {
+  position: absolute;
+  top: -35px;
+}
+
+.c-tabs__label {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  cursor: pointer;
+  color: var(--black);
+  margin-right: 2.5rem;
+  padding-bottom: .5rem;
+}
+
+.c-tabs__label:last-child {
+  margin-right: 0;
+}
+
+.c-tabs__radio-button {
+  position: absolute;
+  height: 0;
+  width: 0;
+  outline: none;
+}
+
+.c-tabs__radio-button#all-tab:checked~.c-tabs__scroller .c-tabs__label[for="all-tab"],
+.c-tabs__radio-button#complex-tab:checked~.c-tabs__scroller .c-tabs__label[for="complex-tab"],
+.c-tabs__radio-button#simple-tab:checked~.c-tabs__scroller .c-tabs__label[for="simple-tab"] {
+  border-bottom: 5px solid var(--black);
+}
+
+.c-tabs__content {
+  display: none;
+  min-width: 75rem;
+}
+
+.c-tabs__scroller {
+  padding: 0 2.5rem;
+}
+
+.c-tabs__radio-button#all-tab:checked~.c-tabs__content_all {
+  display: flex;
+}
+
+.c-tabs__radio-button#complex-tab:checked~.c-tabs__content_complex {
+  display: flex;
+}
+
+.c-tabs__radio-button#simple-tab:checked~.c-tabs__content_simple {
+  display: flex;
+}
+
+@media (max-width: 400px) {
+  .c-tabs__content {
+    display: none;
+    min-width: 23.4375rem;
+  }
+
+  .c-tabs__scroller {
+    padding: 0 1rem;
+  }
+
+  .c-tabs__label {
+    margin-right: 1.5rem;
+  }
+}
