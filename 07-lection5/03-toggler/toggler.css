@@ -1,0 +1,71 @@
+.c-toggle {
+  display: inline-block;
+  position: relative;
+}
+
+.c-toggle__input {
+  position: absolute;
+  height: 0;
+  width: 0;
+  outline: none;
+}
+
+.c-toggle__state {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+}
+
+.c-toggle__control {
+  width: 3.25rem;
+  height: 1.75rem;
+  background: var(--white);
+  border: 1px solid var(--grey-2);
+  border-radius: 16px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 0 .125rem;
+}
+
+.c-toggle__icon {
+  background: var(--grey-2);
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.c-toggle__label {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--grey-4);
+}
+
+.c-toggle__input:checked~.c-toggle__state .c-toggle__control {
+  background: var(--blue);
+  border: 1px solid var(--blue);
+  align-items: end;
+}
+
+.c-toggle__input:checked~.c-toggle__state .c-toggle__control .c-toggle__icon {
+  background: var(--white);
+}
+
+.c-toggle__input:focus~.c-toggle__state .c-toggle__label {
+  text-decoration: underline;
+}
+
+.c-toggle__input:disabled~.c-toggle__state .c-toggle__control {
+  background: var(--grey-2);
+}
+
+.c-toggle__input:disabled~.c-toggle__state .c-toggle__control .c-toggle__icon {
+  background: var(--grey-3);
+}
+
+.c-toggle__input:disabled~.c-toggle__state .c-toggle__label {
+  text-decoration: none;
+}
