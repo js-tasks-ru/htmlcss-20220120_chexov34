@@ -25,6 +25,7 @@
   display: flex;
   flex-flow: column;
   justify-content: center;
+  padding: 0 .125rem;
 }
 
 .c-toggle__icon {
@@ -32,7 +33,6 @@
   border-radius: 50%;
   width: 1.5rem;
   height: 1.5rem;
-  margin-left: .125rem;
 }
 
 .c-toggle__label {
@@ -52,8 +52,6 @@
 
 .c-toggle__input:checked~.c-toggle__state .c-toggle__control .c-toggle__icon {
   background: var(--white);
-  margin-left: 0;
-  margin-right: .125rem;
 }
 
 .c-toggle__input:focus~.c-toggle__state .c-toggle__label {
