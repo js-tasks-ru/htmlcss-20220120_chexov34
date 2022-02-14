@@ -18,12 +18,15 @@
 .l-header--logo {
   width: 6.875rem;
   position: absolute;
-  left: 50%;
   top: 17px;
-  transform: translateX(-50%);
 }
 
 @media (max-width: 400px) {
+  .l-header--logo {
+    transform: translateX(-50%);
+    left: 50%;
+  }
+
   .l-header {
     padding: 6rem 4.4375rem 4.8125rem 1rem;
   }
@@ -34,6 +37,7 @@
     font-style: normal;
     font-weight: normal;
   }
+
   .l-header--page {
     background: var(--grey-8);
     padding: 2rem 8.3125rem;

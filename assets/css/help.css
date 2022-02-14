@@ -30,9 +30,13 @@ html {
     background: var(--grey-1);
 }
 
+.l-main {
+    position: relative;
+}
+
 @media (max-width: 400px) {
     .background-base {
         background: var(--white);
     }
-    
+
 }
