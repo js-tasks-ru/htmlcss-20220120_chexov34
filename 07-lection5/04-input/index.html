@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- Страница с полем ввода -->
+<html lang="ru">
+
+<head>
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./input.css">
+</head>
+
+<body class="background-base">
+    <div class="l-page">
+        <header class="l-header l-header--page">
+            <div class="l-container">
+                <div class="l-header--logo">
+                    <svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect y="1" width="30" height="30" fill="#212429" />
+                        <rect x="38" width="32" height="32" rx="16" fill="#212429" />
+                        <path d="M78 0L110 32H78V0Z" fill="#212429" />
+                    </svg>
+                </div>
+            </div>
+        </header>
+
+        <main class="l-page__main l-container">
+            <aside class="c-sidebar">
+                <h4 class="mb-md">Components</h4>
+                <nav class="c-sidebar__menu">
+                    <a class="c-sidebar__link" href="#">Modal</a>
+                    <a class="c-sidebar__link" href="#">Tooltip</a>
+                    <a class="c-sidebar__link" href="#">Avatar</a>
+                    <a class="c-sidebar__link" href="#">Calendar</a>
+                    <a class="c-sidebar__link" href="#">Histogram</a>
+                    <a class="c-sidebar__link c-sidebar__link--active" href="#">Custom form elements</a>
+                </nav>
+                <a class="c-sidebar__link" href="#">Main page</a>
+            </aside>
+            <div class="l-page__inner">
+                <div class="l-contaner">
+                    <h3 class="l-page__title">Custom form elements</h3>
+                    <label class="c-form-block">
+                        <div class="c-form-block__label">Label</div>
+                        <div class="c-form-block__input-wrapper">
+                            <input class="c-form-block__input" type="text" name="input" placeholder="placeholder">
+                        </div>
+                    </label>
+                    <br />
+                    <label class="c-form-block">
+                        <div class="c-form-block__label">Focus</div>
+                        <div class="c-form-block__input-wrapper">
+                            <input class="c-form-block__input" type="text" name="input" placeholder="placeholder" value="Filled Input">
+                        </div>
+                    </label>
+                    <br />
+                    <label class="c-form-block c-form-block--success">
+                        <div class="c-form-block__label">Success</div>
+                        <div class="c-form-block__input-wrapper">
+                            <input class="c-form-block__input" type="text" name="input" placeholder="placeholder" value="Success">
+                            <svg class="c-icon c-form-block--icon" viewBox="0 0 24 24">
+                                <use href="/assets/svg/icons.svg#success"></use>
+                            </svg>
+                        </div>
+                    </label>
+                    <br />
+                    <label class="c-form-block c-form-block--error">
+                        <div class="c-form-block__label">Error</div>
+                        <div class="c-form-block__input-wrapper">
+                            <input class="c-form-block__input" type="text" name="input" placeholder="placeholder" value="Error">
+                            <svg class="c-icon c-form-block--icon" viewBox="0 0 24 24">
+                                <use href="/assets/svg/icons.svg#error"></use>
+                            </svg>
+                        </div>
+                    </label>
+                    <br />
+                    <label class="c-form-block">
+                        <div class="c-form-block__label">Disabled</div>
+                        <div class="c-form-block__input-wrapper">
+                            <input class="c-form-block__input" type="text" name="input" placeholder="placeholder" value="disabled" disabled>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </main>
+
+        <footer class="l-footer l-footer--page">
+            <div class="l-container">
+                <h5 class="l-footer--title">Reusable component library</h5>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
