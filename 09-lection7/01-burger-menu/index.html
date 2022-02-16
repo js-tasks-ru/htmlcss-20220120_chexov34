@@ -1,12 +1,100 @@
 <!DOCTYPE html>
 <!-- Страница бургер-меню -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./burger-menu.css">
-        <script defer src="./burger-menu.js"></script>
-    </head>
-    <body>
 
-    </body>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./burger-menu.css">
+    <script defer src="./burger-menu.js"></script>
+</head>
+
+<body class="background-base">
+    <div class="l-page">
+        <header class="l-header l-header--page">
+            <div class="l-container">
+                <div class="burger-menu" id="burger-menu-open">
+                    <svg class="c-icon l-header--icon" viewBox="0 0 24 24">
+                        <use href="/assets/svg/icons.svg#menu"></use>
+                    </svg>
+                </div>
+                <div class="burger-menu-items" id="burger-menu">
+                    <div class="burger-menu-items__header">
+                        <div class="l-container">
+                            <div class="burger-menu-items__inner">
+                                <div class="burger-menu-items__close">
+                                    <svg id="burger-menu-close" class="c-icon l-header--icon" viewBox="0 0 24 24">
+                                        <use href="/assets/svg/icons.svg#close"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="burger-menu-items__body">
+                        <div class="burger-menu-items__divider"></div>
+                        <div class="burger-menu-items__mode">
+                            <label class="c-toggle">
+                                <input type="checkbox" class="c-toggle__input" name="toggle" />
+                                <div class="c-toggle__state burger-menu-items--toggle">
+                                    <div class="c-toggle__label">Dark mode</div>
+                                    <div class="c-toggle__control">
+                                        <div class="c-toggle__icon"></div>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="burger-menu-items__divider"></div>
+                        <aside class="burger-menu-items__sidebar">
+                            <h4 class="burger-menu-items__title mb-md">Components</h4>
+                            <nav class="burger-menu-items__menu-items">
+                                <a class="burger-menu-items__link mb-md" href="modal.html">Modal</a>
+                                <a class="burger-menu-items__link mb-md" href="tooltip.html">Tooltip</a>
+                                <a class="burger-menu-items__link mb-md" href="avatar.html">Avatar</a>
+                                <a class="burger-menu-items__link mb-md" href="calendar.html">Calendar</a>
+                                <a class="burger-menu-items__link mb-md c-sidebar__link--active" href="#" class="active">Histogram</a>
+                                <a class="burger-menu-items__link" href="formgroup.html">Custom form elements</a>
+                            </nav>
+                        </aside>
+                    </div>
+                </div>
+                <div class="l-header--logo">
+                    <svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect y="1" width="30" height="30" fill="#212429" />
+                        <rect x="38" width="32" height="32" rx="16" fill="#212429" />
+                        <path d="M78 0L110 32H78V0Z" fill="#212429" />
+                    </svg>
+                </div>
+            </div>
+        </header>
+
+        <main class="l-page__main l-container">
+            <aside class="c-sidebar">
+                <h4 class="mb-md">Components</h4>
+                <nav class="c-sidebar__menu">
+                    <a class="c-sidebar__link" href="#">Modal</a>
+                    <a class="c-sidebar__link" href="#">Tooltip</a>
+                    <a class="c-sidebar__link" href="#">Avatar</a>
+                    <a class="c-sidebar__link" href="#">Calendar</a>
+                    <a class="c-sidebar__link c-sidebar__link--active" href="#">Histogram</a>
+                    <a class="c-sidebar__link" href="#">Custom form elements</a>
+                </nav>
+                <a class="c-sidebar__link" href="#">Main page</a>
+            </aside>
+            <div class="l-page__inner">
+                <div class="l-contaner">
+                    <h3 class="l-page__title">Histogram</h3>
+
+                </div>
+            </div>
+        </main>
+
+        <footer class="l-footer l-footer--page">
+            <div class="l-container">
+                <h5 class="l-footer--title">Reusable component library</h5>
+            </div>
+        </footer>
+    </div>
+</body>
+
 </html>

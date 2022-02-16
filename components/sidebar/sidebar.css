@@ -24,7 +24,7 @@
 }
 
 .c-sidebar__link--active {
-  color: var(--orange);
+  color: var(--orange) !important;
 }
 
 @media (max-width: 400px) {
