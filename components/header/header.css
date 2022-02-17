@@ -28,6 +28,15 @@
   cursor: pointer;
 }
 
+.header__burger-menu-trigger {
+  position: absolute;
+  left: 2.5rem;
+  top: 50%;
+  transform: translate(0, -50%);
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
 @media (max-width: 420px) {
   .l-header--logo {
     transform: translate(-50%);
@@ -49,5 +58,11 @@
   .l-header--page {
     background: var(--grey-8);
     padding: 2rem 8.3125rem;
+  }
+
+  @media (min-width: 768px) {
+    .header__burger-menu-trigger {
+      display: none !important;
+    }
   }
 }
