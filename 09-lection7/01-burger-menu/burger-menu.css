@@ -1,17 +1,17 @@
 .burger-menu {
-  display: none;
+  position: fixed;
   padding: 1rem 2rem;
   max-width: 26.75rem;
-}
-
-.burger-menu[data-open] {
-  display: block;
-  position: fixed;
-  background: var(--grey-1);
   left: 0;
   top: 0;
   width: 100vh;
   height: 100vh;
+  background: var(--grey-1);
+  transform: translateX(-100vh);
+}
+
+.burger-menu[data-open] {
+  transform: translateX(0);
 }
 
 .burger-menu__header {
