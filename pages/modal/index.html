@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- Детальная компонента -->
+<html lang="ru">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body class="background-base">
+  <div class="l-page">
+    <header class="l-header l-header--page">
+      <div class="l-container">
+        <div class="l-header--logo">
+          <svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect y="1" width="30" height="30" fill="#212429" />
+            <rect x="38" width="32" height="32" rx="16" fill="#212429" />
+            <path d="M78 0L110 32H78V0Z" fill="#212429" />
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <main class="l-page__main l-container">
+      <aside class="c-sidebar">
+        <h4 class="mb-md">Components</h4>
+        <nav class="c-sidebar__menu">
+          <a class="c-sidebar__link c-sidebar__link--active" href="/pages/modal/index.html">Modal</a>
+          <a class="c-sidebar__link" href="/pages/tooltop/index.html">Tooltip</a>
+          <a class="c-sidebar__link" href="#">Avatar</a>
+          <a class="c-sidebar__link" href="/pages/calendar/index.html">Calendar</a>
+          <a class="c-sidebar__link" href="/pages/histogram/index.html">Histogram</a>
+          <a class="c-sidebar__link" href="#">Custom form elements</a>
+        </nav>
+        <a class="c-sidebar__link" href="/">Main page</a>
+      </aside>
+      <div class="l-page__inner">
+        <div class="l-contaner">
+          <h3 class="l-page__title">Tooltip</h3>
+          <button id="modal-open" class="c-button c-button--primary">Open modal</button>
+          <div id="modal" class="c-modal">
+            <div class="c-modal__form">
+              <div id="modal-close" class="c-modal__icon_close">
+                <svg class="c-icon" viewBox="0 0 20 20">
+                  <use href="/assets/svg/icons.svg#close"></use>
+                </svg>
+              </div>
+              <div class="c-modal__title">Modal title</div>
+              <div class="c-modal__body">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="l-footer l-footer--page">
+      <div class="l-container">
+        <h5 class="l-footer--title">Reusable component library</h5>
+      </div>
+    </footer>
+  </div>
+  <script src="/05-lection3/02-modal/index.js"></script>
+</body>
+
+</html>
