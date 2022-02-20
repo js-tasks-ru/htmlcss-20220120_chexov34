@@ -24,6 +24,7 @@
   font-size: 1.25rem;
   line-height: 1.62500rem;
   color: var(--grey-4);
+  transition: all .5s ease;
 }
 
 .c-form-block__input::placeholder {
