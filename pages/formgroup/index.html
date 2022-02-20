@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!-- Детальная компонента -->
+<html lang="ru">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body class="background-base">
+  <div class="l-page">
+    <header class="l-header l-header--page">
+      <div class="l-container">
+        <div class="l-header--logo">
+          <svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect y="1" width="30" height="30" fill="#212429" />
+            <rect x="38" width="32" height="32" rx="16" fill="#212429" />
+            <path d="M78 0L110 32H78V0Z" fill="#212429" />
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <main class="l-page__main l-container">
+      <aside class="c-sidebar">
+        <h4 class="mb-md">Components</h4>
+        <nav class="c-sidebar__menu">
+          <a class="c-sidebar__link" href="/pages/modal/index.html">Modal</a>
+          <a class="c-sidebar__link" href="/pages/tooltop/index.html">Tooltip</a>
+          <a class="c-sidebar__link" href="#">Avatar</a>
+          <a class="c-sidebar__link" href="/pages/calendar/index.html">Calendar</a>
+          <a class="c-sidebar__link" href="/pages/histogram/index.html">Histogram</a>
+          <a class="c-sidebar__link c-sidebar__link--active" href="/pages/formgroup/index.html">Custom form elements</a>
+        </nav>
+        <a class="c-sidebar__link" href="/">Main page</a>
+      </aside>
+      <div class="l-page__inner">
+        <div class="l-contaner">
+          <h3 class="l-page__title">Custom form elements</h3>
+          <div class="l-page-row">
+            <div class="l-page-column">
+              <label class="c-checkbox c-form--field">
+                <input type="checkbox" class="c-checkbox__input" name="checkbox" />
+                <div class="c-checkbox__state">
+                  <div class="c-checkbox__control">
+                    <svg class="c-icon c-checkbox__icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M20.7071 5.29289C21.0976 5.68342 21.0976 6.31658 20.7071 6.70711L9.70711 17.7071C9.31658 18.0976 8.68342 18.0976 8.29289 17.7071L3.29289 12.7071C2.90237 12.3166 2.90237 11.6834 3.29289 11.2929C3.68342 10.9024 4.31658 10.9024 4.70711 11.2929L9 15.5858L19.2929 5.29289C19.6834 4.90237 20.3166 4.90237 20.7071 5.29289Z"
+                        fill="currentColor" />
+                    </svg>
+                  </div>
+                  <div class="c-checkbox__label">Default</div>
+                </div>
+              </label>
+              <label class="c-checkbox c-form--field">
+                <input type="checkbox" class="c-checkbox__input" name="checkbox" checked />
+                <div class="c-checkbox__state">
+                  <div class="c-checkbox__control">
+                    <svg class="c-icon c-checkbox__icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M20.7071 5.29289C21.0976 5.68342 21.0976 6.31658 20.7071 6.70711L9.70711 17.7071C9.31658 18.0976 8.68342 18.0976 8.29289 17.7071L3.29289 12.7071C2.90237 12.3166 2.90237 11.6834 3.29289 11.2929C3.68342 10.9024 4.31658 10.9024 4.70711 11.2929L9 15.5858L19.2929 5.29289C19.6834 4.90237 20.3166 4.90237 20.7071 5.29289Z"
+                        fill="currentColor" />
+                    </svg>
+                  </div>
+                  <div class="c-checkbox__label">Default</div>
+                </div>
+              </label>
+              <label class="c-checkbox c-form--field">
+                <input type="checkbox" class="c-checkbox__input" name="checkbox" disabled />
+                <div class="c-checkbox__state">
+                  <div class="c-checkbox__control">
+                    <svg class="c-icon c-checkbox__icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M20.7071 5.29289C21.0976 5.68342 21.0976 6.31658 20.7071 6.70711L9.70711 17.7071C9.31658 18.0976 8.68342 18.0976 8.29289 17.7071L3.29289 12.7071C2.90237 12.3166 2.90237 11.6834 3.29289 11.2929C3.68342 10.9024 4.31658 10.9024 4.70711 11.2929L9 15.5858L19.2929 5.29289C19.6834 4.90237 20.3166 4.90237 20.7071 5.29289Z"
+                        fill="currentColor" />
+                    </svg>
+                  </div>
+                  <div class="c-checkbox__label">Default</div>
+                </div>
+              </label>
+            </div>
+            <div class="l-page-column">
+              <label class="c-radio-button c-form--field">
+                <input type="radio" class="c-radio-button__input" name="radio-button" />
+                <div class="c-radio-button__state">
+                  <div class="c-radio-button__control">
+                    <div class="c-radio-button__icon"></div>
+                  </div>
+                  <div class="c-radio-button__label">Default</div>
+                </div>
+              </label>
+              <label class="c-radio-button c-form--field">
+                <input type="radio" class="c-radio-button__input" name="radio-button" checked />
+                <div class="c-radio-button__state">
+                  <div class="c-radio-button__control">
+                    <div class="c-radio-button__icon"></div>
+                  </div>
+                  <div class="c-radio-button__label">Checked</div>
+                </div>
+              </label>
+              <label class="c-radio-button c-form--field">
+                <input type="radio" class="c-radio-button__input" name="radio-button" disabled />
+                <div class="c-radio-button__state">
+                  <div class="c-radio-button__control">
+                    <div class="c-radio-button__icon"></div>
+                  </div>
+                  <div class="c-radio-button__label">Disabled</div>
+                </div>
+              </label>
+            </div>
+            <div class="l-page-column">
+              <label class="c-toggle c-form--field">
+                <input type="checkbox" class="c-toggle__input" name="toggle" />
+                <div class="c-toggle__state">
+                  <div class="c-toggle__control">
+                    <div class="c-toggle__icon"></div>
+                  </div>
+                  <div class="c-toggle__label">Off</div>
+                </div>
+              </label>
+              <label class="c-toggle c-form--field">
+                <input type="checkbox" class="c-toggle__input" name="toggle" checked />
+                <div class="c-toggle__state">
+                  <div class="c-toggle__control">
+                    <div class="c-toggle__icon"></div>
+                  </div>
+                  <div class="c-toggle__label">On</div>
+                </div>
+              </label>
+              <label class="c-toggle c-form--field">
+                <input type="checkbox" class="c-toggle__input" name="toggle" disabled />
+                <div class="c-toggle__state">
+                  <div class="c-toggle__control">
+                    <div class="c-toggle__icon"></div>
+                  </div>
+                  <div class="c-toggle__label">Disabled</div>
+                </div>
+              </label>
+            </div>
+          </div>
+          <br />
+          <div class="l-page-column">
+            <label class="c-form-block c-form--field">
+              <div class="c-form-block__label">Label</div>
+              <div class="c-form-block__input-wrapper">
+                <input class="c-form-block__input" type="text" name="input" placeholder="placeholder">
+              </div>
+            </label>
+            <label class="c-form-block c-form--field">
+              <div class="c-form-block__label">Focus</div>
+              <div class="c-form-block__input-wrapper">
+                <input class="c-form-block__input" type="text" name="input" placeholder="placeholder"
+                  value="Filled Input">
+              </div>
+            </label>
+            <label class="c-form-block c-form-block--success c-form--field">
+              <div class="c-form-block__label">Success</div>
+              <div class="c-form-block__input-wrapper">
+                <input class="c-form-block__input" type="text" name="input" placeholder="placeholder" value="Success">
+                <svg class="c-icon c-form-block--icon" viewBox="0 0 24 24">
+                  <use href="/assets/svg/icons.svg#success"></use>
+                </svg>
+              </div>
+            </label>
+            <label class="c-form-block c-form-block--error c-form--field">
+              <div class="c-form-block__label">Error</div>
+              <div class="c-form-block__input-wrapper">
+                <input class="c-form-block__input" type="text" name="input" placeholder="placeholder" value="Error">
+                <svg class="c-icon c-form-block--icon" viewBox="0 0 24 24">
+                  <use href="/assets/svg/icons.svg#error"></use>
+                </svg>
+              </div>
+            </label>
+            <label class="c-form-block c-form--field">
+              <div class="c-form-block__label">Disabled</div>
+              <div class="c-form-block__input-wrapper">
+                <input class="c-form-block__input" type="text" name="input" placeholder="placeholder" value="disabled"
+                  disabled>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="l-footer l-footer--page">
+      <div class="l-container">
+        <h5 class="l-footer--title">Reusable component library</h5>
+      </div>
+    </footer>
+  </div>
+  <script src="/05-lection3/02-modal/index.js"></script>
+</body>
+
+</html>
