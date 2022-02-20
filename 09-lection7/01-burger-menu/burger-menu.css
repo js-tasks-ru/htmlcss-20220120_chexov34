@@ -8,6 +8,7 @@
   height: 100vh;
   background: var(--grey-1);
   transform: translateX(-100vh);
+  z-index: 999;
 }
 
 .burger-menu[data-open] {

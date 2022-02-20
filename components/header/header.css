@@ -37,6 +37,11 @@
   width: 1.5rem;
 }
 
+.header__burger-menu-main-page {
+  left: auto;
+  top: 2.2rem;
+}
+
 @media (max-width: 420px) {
   .l-header--logo {
     transform: translate(-50%);
@@ -59,10 +64,10 @@
     background: var(--grey-8);
     padding: 2rem 8.3125rem;
   }
+}
 
-  @media (min-width: 768px) {
-    .header__burger-menu-trigger {
-      display: none !important;
-    }
+@media (min-width: 768px) {
+  .header__burger-menu-trigger {
+    display: none !important;
   }
 }

@@ -6,11 +6,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/main.css">
+    <script defer src="/09-lection7/01-burger-menu/burger-menu.js"></script>
 </head>
 
 <body class="l-page">
     <header class="l-header">
+        <div class="header__burger-menu-trigger header__burger-menu-main-page" id="burger-menu-open">
+            <svg class="c-icon l-header--icon" viewBox="0 0 24 24">
+                <use href="/assets/svg/icons.svg#menu"></use>
+            </svg>
+        </div>
         <div class="l-container">
+            <div class="burger-menu" id="burger-menu">
+                <div class="burger-menu__header">
+                    <div class="l-container">
+                        <div class="burger-menu__inner">
+                            <div class="burger-menu__close">
+                                <svg id="burger-menu-close" class="c-icon l-header--icon" viewBox="0 0 24 24">
+                                    <use href="/assets/svg/icons.svg#close"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="burger-menu__body">
+                    <div class="burger-menu__divider"></div>
+                    <div class="burger-menu__mode">
+                        <label class="c-toggle">
+                            <input type="checkbox" class="c-toggle__input" name="toggle" />
+                            <div class="c-toggle__state burger-menu--toggle">
+                                <div class="c-toggle__label">Dark mode</div>
+                                <div class="c-toggle__control">
+                                    <div class="c-toggle__icon"></div>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="burger-menu__divider"></div>
+                    <aside class="burger-menu__sidebar">
+                        <h4 class="burger-menu__title mb-md">Components</h4>
+                        <nav class="burger-menu__menu-items">
+                            <a class="burger-menu__link mb-md" href="modal.html">Modal</a>
+                            <a class="burger-menu__link mb-md" href="tooltip.html">Tooltip</a>
+                            <a class="burger-menu__link mb-md" href="avatar.html">Avatar</a>
+                            <a class="burger-menu__link mb-md" href="calendar.html">Calendar</a>
+                            <a class="burger-menu__link mb-md c-sidebar__link--active" href="#"
+                                class="active">Histogram</a>
+                            <a class="burger-menu__link" href="formgroup.html">Custom form elements</a>
+                        </nav>
+                    </aside>
+                </div>
+            </div>
             <div class="l-header--logo">
                 <svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect y="1" width="30" height="30" fill="#212429" />

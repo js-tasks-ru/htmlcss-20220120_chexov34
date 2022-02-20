@@ -15,4 +15,7 @@
   .l-container {
     padding: 0 0.5rem;
   }
+  .l-container--main {
+    height: 115rem;
+  }
 }
