@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/assets/css/main.css">
+  <script defer src="/assets/js/rainbow-custom.min.js"></script>
 </head>
 
 <body class="background-base">
@@ -36,58 +37,192 @@
         <a class="c-sidebar__link" href="/">Main page</a>
       </aside>
       <div class="l-page__inner">
-        <div class="l-contaner">
+        <div class="l-contaner mb-md">
           <h3 class="l-page__title">Calendar</h3>
           <div class="c-calendar">
             <div class="c-calendar__title">October 2019</div>
             <div class="c-calendar__wrapper">
-                <div class="c-calendar__inner">
-                    <span class="c-calendar__item c-calendar__item--day">Mon</span>
-                    <span class="c-calendar__item c-calendar__item--day">Tue</span>
-                    <span class="c-calendar__item c-calendar__item--day">Wed</span>
-                    <span class="c-calendar__item c-calendar__item--day">Thu</span>
-                    <span class="c-calendar__item c-calendar__item--day">Fri</span>
-                    <span class="c-calendar__item c-calendar__item--day">Sat</span>
-                    <span class="c-calendar__item c-calendar__item--day">Sun</span>
-                    <span class="c-calendar__item"></span>
-                    <span class="c-calendar__item"></span>
-                    <span class="c-calendar__item"></span>
-                    <span class="c-calendar__item"></span>
-                    <span class="c-calendar__item"></span>
-                    <span class="c-calendar__item">1</span>
-                    <span class="c-calendar__item">2</span>
-                    <span class="c-calendar__item">3</span>
-                    <span class="c-calendar__item">4</span>
-                    <span class="c-calendar__item">5</span>
-                    <span class="c-calendar__item">6</span>
-                    <span class="c-calendar__item">7</span>
-                    <span class="c-calendar__item">8</span>
-                    <span class="c-calendar__item">9</span>
-                    <span class="c-calendar__item">10</span>
-                    <span class="c-calendar__item">11</span>
-                    <span class="c-calendar__item">12</span>
-                    <span class="c-calendar__item">13</span>
-                    <span class="c-calendar__item">14</span>
-                    <span class="c-calendar__item">15</span>
-                    <span class="c-calendar__item">16</span>
-                    <span class="c-calendar__item">17</span>
-                    <span class="c-calendar__item c-calendar__item--active">18</span>
-                    <span class="c-calendar__item c-calendar__item--between-active">19</span>
-                    <span class="c-calendar__item c-calendar__item--between-active">20</span>
-                    <span class="c-calendar__item c-calendar__item--between-active">21</span>
-                    <span class="c-calendar__item c-calendar__item--between-active">22</span>
-                    <span class="c-calendar__item c-calendar__item--active">23</span>
-                    <span class="c-calendar__item">24</span>
-                    <span class="c-calendar__item">25</span>
-                    <span class="c-calendar__item">26</span>
-                    <span class="c-calendar__item">27</span>
-                    <span class="c-calendar__item">28</span>
-                    <span class="c-calendar__item">29</span>
-                    <span class="c-calendar__item">30</span>
-                    <span class="c-calendar__item">31</span>
-                </div>
+              <div class="c-calendar__inner">
+                <span class="c-calendar__item c-calendar__item--day">Mon</span>
+                <span class="c-calendar__item c-calendar__item--day">Tue</span>
+                <span class="c-calendar__item c-calendar__item--day">Wed</span>
+                <span class="c-calendar__item c-calendar__item--day">Thu</span>
+                <span class="c-calendar__item c-calendar__item--day">Fri</span>
+                <span class="c-calendar__item c-calendar__item--day">Sat</span>
+                <span class="c-calendar__item c-calendar__item--day">Sun</span>
+                <span class="c-calendar__item"></span>
+                <span class="c-calendar__item"></span>
+                <span class="c-calendar__item"></span>
+                <span class="c-calendar__item"></span>
+                <span class="c-calendar__item"></span>
+                <span class="c-calendar__item">1</span>
+                <span class="c-calendar__item">2</span>
+                <span class="c-calendar__item">3</span>
+                <span class="c-calendar__item">4</span>
+                <span class="c-calendar__item">5</span>
+                <span class="c-calendar__item">6</span>
+                <span class="c-calendar__item">7</span>
+                <span class="c-calendar__item">8</span>
+                <span class="c-calendar__item">9</span>
+                <span class="c-calendar__item">10</span>
+                <span class="c-calendar__item">11</span>
+                <span class="c-calendar__item">12</span>
+                <span class="c-calendar__item">13</span>
+                <span class="c-calendar__item">14</span>
+                <span class="c-calendar__item">15</span>
+                <span class="c-calendar__item">16</span>
+                <span class="c-calendar__item">17</span>
+                <span class="c-calendar__item c-calendar__item--active">18</span>
+                <span class="c-calendar__item c-calendar__item--between-active">19</span>
+                <span class="c-calendar__item c-calendar__item--between-active">20</span>
+                <span class="c-calendar__item c-calendar__item--between-active">21</span>
+                <span class="c-calendar__item c-calendar__item--between-active">22</span>
+                <span class="c-calendar__item c-calendar__item--active">23</span>
+                <span class="c-calendar__item">24</span>
+                <span class="c-calendar__item">25</span>
+                <span class="c-calendar__item">26</span>
+                <span class="c-calendar__item">27</span>
+                <span class="c-calendar__item">28</span>
+                <span class="c-calendar__item">29</span>
+                <span class="c-calendar__item">30</span>
+                <span class="c-calendar__item">31</span>
+              </div>
             </div>
+          </div>
         </div>
+        <div class="c-tabs">
+          <input class="c-tabs__radio-button" type="radio" name="tabs" id="html-tab" checked>
+          <input class="c-tabs__radio-button" type="radio" name="tabs" id="css-tab">
+
+          <div class="c-tabs__scroller">
+            <label class="c-tabs__label" for="html-tab">HTML</label>
+            <label class="c-tabs__label" for="css-tab">CSS</label>
+          </div>
+          <div class="c-tabs__content c-tabs__content_html l-flex-block">
+            <pre>
+              <code data-language="html">
+                <div class="c-calendar">
+                  <div class="c-calendar__title">October 2019</div>
+                  <div class="c-calendar__wrapper">
+                    <div class="c-calendar__inner">
+                      <span class="c-calendar__item c-calendar__item--day">Mon</span>
+                      <span class="c-calendar__item c-calendar__item--day">Tue</span>
+                      <span class="c-calendar__item c-calendar__item--day">Wed</span>
+                      <span class="c-calendar__item c-calendar__item--day">Thu</span>
+                      <span class="c-calendar__item c-calendar__item--day">Fri</span>
+                      <span class="c-calendar__item c-calendar__item--day">Sat</span>
+                      <span class="c-calendar__item c-calendar__item--day">Sun</span>
+                      <span class="c-calendar__item"></span>
+                      <span class="c-calendar__item"></span>
+                      <span class="c-calendar__item"></span>
+                      <span class="c-calendar__item"></span>
+                      <span class="c-calendar__item"></span>
+                      <span class="c-calendar__item">1</span>
+                      <span class="c-calendar__item">2</span>
+                      <span class="c-calendar__item">3</span>
+                      <span class="c-calendar__item">4</span>
+                      <span class="c-calendar__item">5</span>
+                      <span class="c-calendar__item">6</span>
+                      <span class="c-calendar__item">7</span>
+                      <span class="c-calendar__item">8</span>
+                      <span class="c-calendar__item">9</span>
+                      <span class="c-calendar__item">10</span>
+                      <span class="c-calendar__item">11</span>
+                      <span class="c-calendar__item">12</span>
+                      <span class="c-calendar__item">13</span>
+                      <span class="c-calendar__item">14</span>
+                      <span class="c-calendar__item">15</span>
+                      <span class="c-calendar__item">16</span>
+                      <span class="c-calendar__item">17</span>
+                      <span class="c-calendar__item c-calendar__item--active">18</span>
+                      <span class="c-calendar__item c-calendar__item--between-active">19</span>
+                      <span class="c-calendar__item c-calendar__item--between-active">20</span>
+                      <span class="c-calendar__item c-calendar__item--between-active">21</span>
+                      <span class="c-calendar__item c-calendar__item--between-active">22</span>
+                      <span class="c-calendar__item c-calendar__item--active">23</span>
+                      <span class="c-calendar__item">24</span>
+                      <span class="c-calendar__item">25</span>
+                      <span class="c-calendar__item">26</span>
+                      <span class="c-calendar__item">27</span>
+                      <span class="c-calendar__item">28</span>
+                      <span class="c-calendar__item">29</span>
+                      <span class="c-calendar__item">30</span>
+                      <span class="c-calendar__item">31</span>
+                    </div>
+                  </div>
+                </div>
+              </code>
+            </pre>
+          </div>
+          <div class="c-tabs__content c-tabs__content_css l-flex-block">
+            <pre>
+              <code data-language="css">
+                .c-calendar {
+                  background: var(--white);
+                  border: 1px solid var(--grey-3);
+                  box-sizing: border-box;
+                  border-radius: 0.5rem;
+                  padding: 1.75rem 1.875rem 2.5rem 1.875rem;
+                  width: 100%;
+                  max-width: 20rem;
+                }
+                
+                .c-calendar__title {
+                  font-family: 'Inter', sans-serif;
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 1.25rem;
+                  line-height: 1.5rem;
+                  color: var(--grey-4);
+                  text-align: center;
+                  margin-bottom: 1.5rem;
+                }
+                
+                .c-calendar__wrapper {
+                  position: relative;
+                  padding-bottom: 100%;
+                }
+                
+                .c-calendar__inner {
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  bottom: 0;
+                  left: 0;
+                  display: grid;
+                  grid-template-columns: repeat(7, 1fr);
+                  grid-template-rows: repeat(7, 1fr);
+                }
+                
+                .c-calendar__item {
+                  font-family: 'Source Sans Pro', sans-serif;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 1rem;
+                  line-height: 1.25rem;
+                  color: var(--blue-deep-dark);
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  cursor: pointer;
+                }
+                
+                .c-calendar__item--day {
+                  color: #90A0B7;
+                  font-size: 0.875rem;
+                }
+                
+                .c-calendar__item--active {
+                  background: var(--blue);
+                  color: var(--white);
+                }
+                
+                .c-calendar__item--between-active {
+                  background: rgb(160, 177, 245, .2);
+                }
+              </code>
+            </pre>
+          </div>
         </div>
       </div>
     </main>

@@ -25,6 +25,7 @@
 @import "../../07-lection5/01-checkbox/checkbox.css";
 @import "../../07-lection5/04-input/input.css";
 @import "../../09-lection7/01-burger-menu/burger-menu.css";
+@import '../css/rainbow.theme.min.css';
 
 
 :root {
