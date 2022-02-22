@@ -14,6 +14,11 @@
   display: flex;
   align-items: center;
   gap: .75rem;
+  cursor: pointer;
+}
+
+.c-toggle__input:disabled~.c-toggle__state {
+  cursor: default;
 }
 
 .c-toggle__control {
@@ -33,6 +38,7 @@
   border-radius: 50%;
   width: 1.5rem;
   height: 1.5rem;
+  transition: transform .5s ease;
 }
 
 .c-toggle__label {
@@ -47,11 +53,11 @@
 .c-toggle__input:checked~.c-toggle__state .c-toggle__control {
   background: var(--blue);
   border: 1px solid var(--blue);
-  align-items: end;
 }
 
 .c-toggle__input:checked~.c-toggle__state .c-toggle__control .c-toggle__icon {
   background: var(--white);
+  transform: translateX(120%);
 }
 
 .c-toggle__input:focus~.c-toggle__state .c-toggle__label {

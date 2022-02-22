@@ -6,7 +6,7 @@
 }
 
 .l-container--main {
-  height: 55rem;
+  height: 60rem;
   max-width: 75rem;
   background: var(--grey-8)
 }
@@ -14,5 +14,8 @@
 @media (max-width: 400px) {
   .l-container {
     padding: 0 0.5rem;
+  }
+  .l-container--main {
+    height: 115rem;
   }
 }
